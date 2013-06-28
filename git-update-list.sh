@@ -1,0 +1,16 @@
+( cd linux-vd_agent && git pull --all && git push -u github --mirror );
+( cd qemu && git pull --all && git push -u github --mirror );
+( cd slirp && git pull --all && git push -u github --mirror );
+( cd spice && git pull --all && git push -u github --mirror );
+( cd spice-common && git pull --all && git push -u github --mirror );
+( cd spice-gtk && git pull --all && git push -u github --mirror );
+( cd spice-html5 && git pull --all && git push -u github --mirror );
+( cd spice-protocol && git pull --all && git push -u github --mirror );
+( cd spice-xpi && git pull --all && git push -u github --mirror );
+( cd spicec && git pull --all && git push -u github --mirror );
+( cd usbredir && git pull --all && git push -u github --mirror );
+( cd usbclerk && git pull --all && git push -u github --mirror );
+( cd vdesktop && git pull --all && git push -u github --mirror );
+( cd qxl && git pull --all && git push -u github --mirror );
+( cd win32-vd_agent && git pull --all && git push -u github --mirror );
+( cd vdi_port && git pull --all && git push -u github --mirror );
