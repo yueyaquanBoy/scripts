@@ -14,3 +14,4 @@
 ( cd qxl && git pull --all && git push -u github --mirror );
 ( cd win32-vd_agent && git pull --all && git push -u github --mirror );
 ( cd vdi_port && git pull --all && git push -u github --mirror );
+( cd virt-viewer && git pull --all && git push -u github --mirror );
