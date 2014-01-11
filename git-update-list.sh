@@ -16,5 +16,6 @@
 ( cd win32-qxl && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
 ( cd win32-vd_agent && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
 ( cd win32-vdi_port && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
-( cd virt-viewer && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
 ( cd win32-guest_driver && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
+( cd libusbx && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
+( cd virt-viewer && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );

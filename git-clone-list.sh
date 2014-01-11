@@ -12,11 +12,12 @@ git clone git://anongit.freedesktop.org/spice/spicec
 git clone git://anongit.freedesktop.org/spice/usbredir
 git clone git://people.freedesktop.org/~agilboa/usbclerk
 git clone git://anongit.freedesktop.org/spice/vdesktop
-git clone git://anongit.freedesktop.org/spice/win32/qxl
+git clone git://anongit.freedesktop.org/spice/win32/qxl win32-qxl
 git clone git://anongit.freedesktop.org/spice/win32/vd_agent win32-vd_agent
-git clone git://anongit.freedesktop.org/spice/win32/vdi_port
-git clone git://git.fedorahosted.org/virt-viewer.git
+git clone git://anongit.freedesktop.org/spice/win32/vdi_port win32-vdi_port
 git clone https://github.com/YanVugenfirer/kvm-guest-drivers-windows.git win32-guest_driver
+git clone https://github.com/libusbx/libusbx
+git clone git://git.fedorahosted.org/virt-viewer.git
 
 ( cd linux-vd_agent && git remote add github https://shumen@github.com/SPICE/linux-vd_agent.git && git push -u github --mirror );
 ( cd qemu && git remote add github https://shumen@github.com/SPICE/qemu.git && git push -u github --mirror );
@@ -31,8 +32,9 @@ git clone https://github.com/YanVugenfirer/kvm-guest-drivers-windows.git win32-g
 ( cd usbredir && git remote add github https://shumen@github.com/SPICE/usbredir.git && git push -u github --mirror );
 ( cd usbclerk && git remote add github https://shumen@github.com/SPICE/usbclerk.git && git push -u github --mirror );
 ( cd vdesktop && git remote add github https://shumen@github.com/SPICE/vdesktop.git && git push -u github --mirror );
-( cd qxl && git remote add github https://shumen@github.com/SPICE/win32-qxl.git && git push -u github --mirror );
+( cd win32-qxl && git remote add github https://shumen@github.com/SPICE/win32-qxl.git && git push -u github --mirror );
 ( cd win32-vd_agent && git remote add github https://shumen@github.com/SPICE/win32-vd_agent.git && git push -u github --mirror );
-( cd vdi_port && git remote add github https://shumen@github.com/SPICE/win32-vdi_port.git && git push -u github --mirror );
-( cd virt-viewer && git remote add github https://shumen@github.com/SPICE/virt-viewer.git && git push -u github --mirror );
+( cd win32-vdi_port && git remote add github https://shumen@github.com/SPICE/win32-vdi_port.git && git push -u github --mirror );
 ( cd win32-guest_driver && git remote add github https://shumen@github.com/SPICE/win32-guest_driver.git && git push -u github --mirror );
+( cd libusbx && git remote add github https://shumen@github.com/SPICE/libusbx.git && git push -u github --mirror );
+( cd virt-viewer && git remote add github https://shumen@github.com/SPICE/virt-viewer.git && git push -u github --mirror );
