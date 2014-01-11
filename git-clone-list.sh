@@ -1,4 +1,4 @@
-#git clone --mirror path/to/original path/to/dest/.git
+#git clone --mirror git@exp.com/exp.git exp/.git && ( cd exp && git config --bool core.bare false && git checkout )
 git clone git://anongit.freedesktop.org/spice/linux/vd_agent linux-vd_agent
 git clone git://anongit.freedesktop.org/spice/qemu
 git clone git://anongit.freedesktop.org/spice/slirp
@@ -16,6 +16,7 @@ git clone git://anongit.freedesktop.org/spice/win32/qxl
 git clone git://anongit.freedesktop.org/spice/win32/vd_agent win32-vd_agent
 git clone git://anongit.freedesktop.org/spice/win32/vdi_port
 git clone git://git.fedorahosted.org/virt-viewer.git
+git clone https://github.com/YanVugenfirer/kvm-guest-drivers-windows.git win32-guest_driver
 
 ( cd linux-vd_agent && git remote add github https://shumen@github.com/SPICE/linux-vd_agent.git && git push -u github --mirror );
 ( cd qemu && git remote add github https://shumen@github.com/SPICE/qemu.git && git push -u github --mirror );
@@ -34,3 +35,4 @@ git clone git://git.fedorahosted.org/virt-viewer.git
 ( cd win32-vd_agent && git remote add github https://shumen@github.com/SPICE/win32-vd_agent.git && git push -u github --mirror );
 ( cd vdi_port && git remote add github https://shumen@github.com/SPICE/win32-vdi_port.git && git push -u github --mirror );
 ( cd virt-viewer && git remote add github https://shumen@github.com/SPICE/virt-viewer.git && git push -u github --mirror );
+( cd win32-guest_driver && git remote add github https://shumen@github.com/SPICE/win32-guest_driver.git && git push -u github --mirror );
