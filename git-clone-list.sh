@@ -18,6 +18,7 @@ git clone git://anongit.freedesktop.org/spice/win32/vdi_port win32-vdi_port
 git clone https://github.com/YanVugenfirer/kvm-guest-drivers-windows.git win32-guest_driver
 git clone https://github.com/libusbx/libusbx
 git clone git://git.fedorahosted.org/virt-viewer.git
+git clone https://github.com/pbatard/libwdi.git
 
 ( cd linux-vd_agent && git remote add github https://shumen@github.com/SPICE/linux-vd_agent.git && git push -u github --mirror );
 ( cd qemu && git remote add github https://shumen@github.com/SPICE/qemu.git && git push -u github --mirror );
@@ -38,3 +39,4 @@ git clone git://git.fedorahosted.org/virt-viewer.git
 ( cd win32-guest_driver && git remote add github https://shumen@github.com/SPICE/win32-guest_driver.git && git push -u github --mirror );
 ( cd libusbx && git remote add github https://shumen@github.com/SPICE/libusbx.git && git push -u github --mirror );
 ( cd virt-viewer && git remote add github https://shumen@github.com/SPICE/virt-viewer.git && git push -u github --mirror );
+( cd libwdi && git remote add github https://shumen@github.com/SPICE/libwdi.git && git push -u github --mirror );
