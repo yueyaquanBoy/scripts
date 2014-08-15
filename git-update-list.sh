@@ -20,3 +20,4 @@
 ( cd libusbx && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
 ( cd virt-viewer && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
 ( cd libwdi && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );
+( cd guest-agent && for remote in `git branch -r | grep -v github | grep -v HEAD | grep -v master`; do git branch --track $remote; done; git pull origin master && git pull --all && git push -u github --mirror );

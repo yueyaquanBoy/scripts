@@ -19,6 +19,7 @@ git clone https://github.com/YanVugenfirer/kvm-guest-drivers-windows.git win32-g
 git clone https://github.com/libusbx/libusbx
 git clone git://git.fedorahosted.org/virt-viewer.git
 git clone https://github.com/pbatard/libwdi.git
+git clone https://github.com/oVirt/ovirt-guest-agent.git guest-agent
 
 ( cd linux-vd_agent && git remote add github https://shumen@github.com/SPICE/linux-vd_agent.git && git push -u github --mirror );
 ( cd qemu && git remote add github https://shumen@github.com/SPICE/qemu.git && git push -u github --mirror );
@@ -40,3 +41,4 @@ git clone https://github.com/pbatard/libwdi.git
 ( cd libusbx && git remote add github https://shumen@github.com/SPICE/libusbx.git && git push -u github --mirror );
 ( cd virt-viewer && git remote add github https://shumen@github.com/SPICE/virt-viewer.git && git push -u github --mirror );
 ( cd libwdi && git remote add github https://shumen@github.com/SPICE/libwdi.git && git push -u github --mirror );
+( cd guest-agent && git remote add github https://shumen@github.com/SPICE/guest-agent.git && git push -u github --mirror );
